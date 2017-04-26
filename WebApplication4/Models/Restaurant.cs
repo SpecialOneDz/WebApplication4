@@ -21,7 +21,7 @@ namespace WebApplication4.Models
         public string name { get; set; }
         public Double rate { get; set; }
         public string img { get; set; }
-        public string cover { get; set; }
+       
         public int WinPointMin { get; set; }
 
         [ForeignKey("Manager")]
