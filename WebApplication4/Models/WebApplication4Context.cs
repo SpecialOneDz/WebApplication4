@@ -23,7 +23,7 @@ namespace WebApplication4.Models
          //   this.Configuration.ProxyCreationEnabled = false;
         }
 
-        public DbSet<Address> Addresses { get; set; }
+    
 
         public DbSet<Restaurant> Restaurants { get; set; }
 
