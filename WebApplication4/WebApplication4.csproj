@@ -201,6 +201,7 @@
     <Compile Include="Controllers\RestaurantsController.cs" />
     <Compile Include="Controllers\SpecialitiesController.cs" />
     <Compile Include="Controllers\TimingsController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -232,6 +233,10 @@
     <Compile Include="Migrations\201704292053503_Initial6.Designer.cs">
       <DependentUpon>201704292053503_Initial6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704292114121_Initial7.cs" />
+    <Compile Include="Migrations\201704292114121_Initial7.Designer.cs">
+      <DependentUpon>201704292114121_Initial7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Consumer.cs" />
@@ -244,7 +249,6 @@
     <Compile Include="Models\Speciality.cs" />
     <Compile Include="Models\Timing.cs" />
     <Compile Include="Models\User.cs" />
-    <Compile Include="Models\UsersController.cs" />
     <Compile Include="Models\WebApplication4Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -322,6 +326,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704292053503_Initial6.resx">
       <DependentUpon>201704292053503_Initial6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704292114121_Initial7.resx">
+      <DependentUpon>201704292114121_Initial7.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
